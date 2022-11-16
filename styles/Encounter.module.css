@@ -1,0 +1,71 @@
+.list {
+  min-height: calc(100vh-72px);
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.listItem{
+  background-color: black;
+  cursor: pointer;
+  border-color: #484747;
+}
+
+.row {
+  padding: 5px;
+  margin: 0px;
+  width: 100%;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.image{
+  max-height: 230px;
+  min-height: 230px;
+}
+
+.selectOption {
+  color:black;
+}
+
+.mt5{
+  margin-top:15px;
+}
+
+.mt15{
+  margin-top:25px;
+}
+.listH5{
+  color:white;
+  font-weight:800;
+}
+.padding5{
+  padding:5px;
+}
+
+.editForm{
+  margin-top: 35px;
+}
+
+.editPanel{
+  margin-right: 0px;
+  height: 100%;
+  padding-left: 15px;
+}
+
+.searchInput, .searchInput:focus{
+  background-color: black;
+  color: white;
+  border-color:white;
+  box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 20%);
+  margin-bottom: 10px;
+}
+
+.dateFormat{
+  font-size: 10px;
+  justify-content: flex-end;
+  display: flex;
+  color: #f7f7f759;
+  align-items: center;
+}

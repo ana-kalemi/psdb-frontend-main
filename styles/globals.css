@@ -1,0 +1,72 @@
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  min-height: calc(100vh - 72px);
+  z-index: 1;
+}
+
+html,
+body {
+  color:white !important;
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: rgb(7, 7, 7) !important;
+}
+
+nav ul {
+  display: flex;
+  margin:5px 15px 0px 0px;
+  font-size: 20px;
+  justify-content: flex-end;
+}
+nav ul li {
+  margin: 10px;
+  padding: 5px;
+  list-style: none;
+}
+
+a {
+  color: rgb(163 156 156) !important;
+  text-decoration: none !important;
+}
+
+a:focus, a:active, a:hover{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+  color: #e9edeac9;
+}
+
+.leaflet-touch .leaflet-bar a {
+  color: black !important;
+}
+
+.carousel-control-prev {
+  left: -70px !important;
+}
+
+.carousel-control-next {
+  right: -70px !important;
+}
+
+.header-style{
+  border: 1px solid white;
+  font-size: 14px !important;
+  margin-top: 16px;
+  font-weight:800;
+}
+.login-style{
+  font-size: 14px !important;
+  margin-top: 16px;
+  font-weight:800;
+}
+
+.header-background{
+  background-color: #202020;
+}
+
+.err{
+  color:#8fdb16
+}
